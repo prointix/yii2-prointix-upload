@@ -1,0 +1,40 @@
+{
+    "name": "prointix/yii2-prointix-upload",
+    "description": "This extension use for PROINTIX project",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Rachhen",
+            "email": "rachhen.it@outlook.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "aws/aws-sdk-php": "^3.300"
+    },
+    "autoload": {
+        "psr-4": {
+            "prointix\\uploads\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:prointix/yii2-prointix-upload.git"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
